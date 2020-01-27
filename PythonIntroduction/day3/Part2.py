@@ -11,11 +11,26 @@ String Operations :
 4. Multiplication
 '''
 
-# Indexing
 a = "apples"
+
+# Indexing
 print(a[0])
 print(a[3])
 print(a[-2])
 print(a[4])
 
 # Slicing
+print(a[0:3])
+print(a[0:-2])
+print(a[::-1])
+print(a[-1::])
+print(a[::])
+print(a[0:6:2])
+
+# Concatenation
+b = "oranges"
+print(a + b)
+print(a + b[::-1])
+
+# Multiplication
+print(a * 2)
