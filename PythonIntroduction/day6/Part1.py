@@ -11,6 +11,7 @@ Tuples
     It is enclosed by ()
     It is separated by Comma(,)
     It can store heterogeneous elements.
+    Insert and Append function won't work with Tuple because we cannot modify the tuples.
 '''
 
 a = (1, True, 4.8, "Hello")
