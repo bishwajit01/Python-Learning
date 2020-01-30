@@ -11,6 +11,8 @@ Control Flow Statement
         If elif else statement
         Nested If statement
     Looping Statements
+        while
+        For
     Transfer Statement.
 '''
 
