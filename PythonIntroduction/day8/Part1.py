@@ -14,6 +14,8 @@ Control Flow Statement
         while
         For
     Transfer Statement.
+        Break
+        Continue
 '''
 
 # CONDITIONAL STATEMENT
