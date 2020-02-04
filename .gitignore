@@ -1,7 +1,3 @@
 .metadata/*
 PythonIntroduction/.project
 PythonIntroduction/.pydevproject
-/.metadata/
-PythonProgram/.project
-Pythonprogram/.pydevproject
-Pythonprogram/findtheoutput/__pycache__
