@@ -7,3 +7,5 @@ PythonProject/.pydevproject
 PythonProgram/.project
 PythonProgram/.pydevproject
 PythonIntroduction/day11/__pycache__/*
+PythonIntroduction/day12/package/__pycache__/*
+PythonIntroduction/day12/package/subPackage/__pycache__/*
