@@ -14,7 +14,7 @@ carsData = {'showroom1': pd.Series(data=[10, 20, 30], index=['bmw', 'swift', 'Ma
             'showroom2': pd.Series(data=[1, 2, 3], index=['bmw', 'swift', 'Maruti'])}
 
 print(carsData)
-print(type(carsData))
+print(type(carsData)) 
 
 carsshowroom = pd.DataFrame(carsData)
 print(carsshowroom)
