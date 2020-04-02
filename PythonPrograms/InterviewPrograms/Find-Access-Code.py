@@ -5,6 +5,15 @@ Created on Apr 2, 2020
 '''
 
 '''
+Find the Access Code
+
+For example, [1, 2, 3, 4, 5, 6] has the triples: [1, 2, 4], [1, 2, 6], [1, 3, 6], making the answer 3 total.
+
+Input: [1, 1, 1]
+Output: 1
+
+Input: [1, 2, 3, 4, 5, 6]
+Output: 3
 '''
 
 
