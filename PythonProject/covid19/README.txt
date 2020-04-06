@@ -6,4 +6,4 @@ pip3 install beautifulsoup4
 pip3 install pandas
 pip3 install matplotlib
 
-URL used  ==> https://www.worldometers.info/coronavirus/
+URL used WebScrapping ==> https://www.worldometers.info/coronavirus/
