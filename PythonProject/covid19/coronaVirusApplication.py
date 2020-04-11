@@ -28,6 +28,7 @@ for i in liveData:
 tableBody = soup.find("tbody")
 tableRows = tableBody.find_all("tr")
 
+
 countries = []
 totalCases = []
 newCases = []
@@ -45,9 +46,11 @@ for i in tableRows:
     totalRecovered.append(td[5].text)
     
 headers = ["Countries", "Total Cases", "New Cases", "Total Death", "New Death", "Total Recovered"]
-dataFrames = pd.DataFrame(list(zip(countries, totalCases, newCases, totalDeath, newDeath, totalRecovered)), columns=headers)
-print(dataFrames)
+prepared_list = list(zip(countries, totalCases, newCases, totalDeath, newDeath, totalRecovered))
+del prepared_list[:8]
+#print(prepared_list)
+
+dataFrames = pd.DataFrame(prepared_list, columns=headers)
 
 dataFrames.to_csv("C:\\Users\\bvikram2\\Desktop\\data.csv", index=False)
-print("==========Writing to a file Done==========")
-
+print("==========Writing to a file Done==================")
