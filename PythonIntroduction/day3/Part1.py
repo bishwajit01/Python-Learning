@@ -1,7 +1,7 @@
 '''
 Created on Jan 26, 2020
 
-@author: Bishwajit
+@author: Bishwajit.
 '''
 
 # STRINGS

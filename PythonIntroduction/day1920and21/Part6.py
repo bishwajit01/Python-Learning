@@ -1,7 +1,7 @@
 '''
 Created on Mar 2, 2020
 
-@author: bvikram2
+@author: Bishwajit.
 '''
 '''
 NumPy
