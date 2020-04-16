@@ -70,3 +70,11 @@ string_list = ['1', '2', '3']
 number_list = [int(x) for x in string_list]
 print("New Way :: ", number_list)
 print()
+
+# List Comprehension
+items = 'Apple', 'Banana', 'orange'
+count = 3, 6, 8
+prices = 120.5, 32.0, 46.8 
+
+sentence = [f'I bought {count} {item}s at {price}$' for item, count, price in zip(items, count, prices)]
+print(sentence)
